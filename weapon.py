@@ -4,4 +4,6 @@ class Weapon:
 
     def __init__(self,name,attack_power):
         self.name='Anthrax Amaryllis'
-        self.attack_power=10
+        self.attack_power: 25
+        Weapon()
+
