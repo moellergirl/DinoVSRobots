@@ -6,8 +6,9 @@ class Robot:
         self.name=" Robot Stevie Budd"        
         self.health=100
         self.active_weapon=Weapon
-        pass
+        
 
 
     def attack(self,dinosaur):
-        pass
+        dinosaur.health=dinosaur.health-Weapon
+        print(f'{self.name} riggered and doused {dinosaur.name} with the dreaded {Weapon} in dammage!\n How mortifying,{dinosaur.name}only has {dinosaur.health} of her health remaining!\n')
