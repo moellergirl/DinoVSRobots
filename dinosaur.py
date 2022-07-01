@@ -7,5 +7,5 @@ class Dinosaur:
         self.attack_power=40
     
     def attack(self,robot):
-        print (f'{self.name} charged and attacked {self,robot}for{self.attack_power} dammage!\n How devistating,{self,robot} only has {self.health,robot - self.attack_power} of her health remaining!\n')
-
+        robot.health = robot.health - self.attack_power
+        print (f'{self.name} charged and attacked {robot.name}for{self.attack_power} dammage!\n How devistating,{robot.name} only has {robot.health} of her health remaining!\n')

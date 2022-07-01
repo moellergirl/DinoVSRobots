@@ -4,8 +4,8 @@ from robot import Robot
 
 class Battlefield:
     def __init__(self):
-        robot=Robot
-        dinosaur=Dinosaur
+       self.robot=Robot()
+       self.dinosaur=Dinosaur()
 
 
     def run_game (self):
@@ -13,7 +13,7 @@ class Battlefield:
 
 
     def disply_welcome(self):
-        print'
+        pass
 
 
     def battle_phase(self):
