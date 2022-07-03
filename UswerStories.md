@@ -20,10 +20,10 @@ Total Weighted Project Points: /20
  
 <!-- (10 points): As a developer, I want a Weapon to have a name and attack_power.  -->
  
-(10 points): As a developer, I want a Dinosaur to have the ability to attack a Robot on a Battlefield. This attack method should lower a Robot’s health by the value of the Dinosaur’s attack_power. 
-    ~ I need to subtract the robots health by the amount of the attack. 100-40
+<!-- (10 points): As a developer, I want a Dinosaur to have the ability to attack a Robot on a Battlefield. This attack method should lower a Robot’s health by the value of the Dinosaur’s attack_power.  -->
+ <!-- ~ I need to subtract the robots health by the amount of the attack. 100-40 -->
  
-(10 points): As a developer, I want a Robot to have the ability to attack a Dinosaur on a Battlefield. This attack method should lower the Dinosaur’s health by the attack_power of the Robot’s active_weapon. 
+<!-- (10 points): As a developer, I want a Robot to have the ability to attack a Dinosaur on a Battlefield. This attack method should lower the Dinosaur’s health by the attack_power of the Robot’s active_weapon.  -->
   
 (10 points): As a developer, I want the battle to conclude once either the robot or the dinosaur has its health points reduced to zero.
  
