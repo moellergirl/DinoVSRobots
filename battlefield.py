@@ -1,3 +1,4 @@
+
 from dinosaur import Dinosaur
 from robot import Robot
 
@@ -13,6 +14,7 @@ class Battlefield:
         self.disply_welcome
         self.battle_phase
         self.disply_winner
+    run_game()
 
 
     def disply_welcome(self):
@@ -20,9 +22,16 @@ class Battlefield:
 
 
     def battle_phase(self):
-        
-
-        
+        while self.battle==True:
+            if Robot.health>0:
+             
+                Dinosaur()
+        if Dinosaur.health>0:
+            
+                Robot( )
 
     def disply_winner(self):
-        pass
+        if Dinosaur.health>=0:
+            print(f' Oh no! {Dinosaur.name} has been defeated.\n {Robot.name} is the victor!')
+        elif Robot.health>+0:
+            print(f'Ha! {Dinosaur.name} has schooled {Robot.name}.\n {Dinosaur.name} has won this war!')    
