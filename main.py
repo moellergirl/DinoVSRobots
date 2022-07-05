@@ -2,5 +2,5 @@ from battlefield import Battlefield
 
 
 
-battlefields_one=Battlefield()
-battlefields_one.run_game()
+battlefield_one=Battlefield()
+battlefield_one.run_game()
