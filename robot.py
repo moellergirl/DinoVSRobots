@@ -2,11 +2,12 @@ from weapon import Weapon
 class Robot:
 
     def __init__(self,name):
-        self.name='Robot David Rose'       
+        self.name=name     
         self.health=100
-        self.active_weapon=Weapon
+        self.active_weapon=Weapon('Anthrax Amaryllis', 25)
     
 
     def attack(self,dinosaur):
-        dinosaur.health=dinosaur.health-self.active_weapon
-        print(f'{self.name} riggered and doused {dinosaur.name} with the dreaded {self.active_weapon} in dammage!\n How mortifying,{dinosaur.name}only has {dinosaur.health} of his health remaining!\n')
+        dinosaur.health-= dinosaur.health-self.active_weapon.attack_power
+        print(f'{self.name} riggered and doused {dinosaur.name} with the dreaded {self.active_weapon.name}!\n How mortifying, {dinosaur.name} has lost {dinosaur.health} of her health points. \n')
+        robot=Robot('Robot David Rose')
